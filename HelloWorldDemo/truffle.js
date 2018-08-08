@@ -13,14 +13,6 @@
  */
 
 module.exports = {
-  networks: {
-    ropsten: {
-          provider: new Web3.providers.HttpProvider('https://host.name:8545')
-    },
-    rinkeby: {
-        provider: new Web3.providers.HttpProvider('https://host.name:8546')
-    }
-  }
   // See <http://truffleframework.com/docs/advanced/configuration>
   // to customize your Truffle configuration!
 };
